@@ -1,20 +1,24 @@
 # Sparrowdo::Cpanm::GitHub
 
-[![Build Status](https://travis-ci.org//perl6-sparrowdo-cpanm-github.svg?branch=master)](https://travis-ci.org//perl6-sparrowdo-cpanm-github)
+[![Build Status](https://travis-ci.org//sparrowdo-cpanm-github.svg?branch=master)](https://travis-ci.org//sparrowdo-cpanm-github)
 
-## SYNOPSIS
+# Install
 
-Installs CPAN modules fetched from remote GitHub repositories.
+    $ zef install Sparrowdo::Cpanm::GitHub
+
+# SYNOPSIS
+
+[Sparrowdo](https://github.com/melezhik/sparrowdo) module to installs CPAN modules fetched from remote GitHub repositories.
 
 # Usage
 
-  $ cat sparrowfile
-
-  run_module Cpanm::GitHub %(
-      project => "https://github.com/melezhik/outthentic" # GitHub project
-      branch  => "realtime-stdout" # Tag name; If not set master branch installed 
-  );
-
+    $ cat sparrowfile
+    
+    run_module Cpanm::GitHub %(
+        project => "https://github.com/melezhik/outthentic" # GitHub project
+        branch  => "realtime-stdout" # Tag name; If not set master branch installed 
+    );
+    
 # Limitation
 
 If you look more grained control on over CPAN modules install consider [cpan-*](https://github.com/melezhik/sparrowdo/blob/master/core-dsl.md#cpan-packages)
