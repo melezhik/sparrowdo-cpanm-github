@@ -32,7 +32,8 @@
   },
 
   "depends": [
-    "Test::META"
+    "Test::META",
+    "Sparrowdo"
   ],
 
   "tags": [
