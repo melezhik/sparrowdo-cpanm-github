@@ -33,7 +33,9 @@
 
   "depends": [
     "Test::META",
-    "Sparrowdo"
+    "Sparrowdo",
+    "Sparrowdo::RemoteFile",
+    "Sparrowdo::Archive"
   ],
 
   "tags": [

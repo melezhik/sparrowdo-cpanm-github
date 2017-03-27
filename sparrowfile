@@ -1,0 +1,5 @@
+module_run 'Cpanm::GitHub', %(
+    project => "https://github.com/melezhik/outthentic", # GitHub project
+    branch  => "realtime-stdout" # Tag name; If not set master branch installed 
+);
+
