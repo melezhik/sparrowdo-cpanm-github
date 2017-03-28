@@ -10,6 +10,11 @@
 
 [Sparrowdo](https://github.com/melezhik/sparrowdo) module to installs CPAN modules fetched from remote GitHub repositories.
 
+# Descritpion
+
+This module is able to install CPAN modules taken from GitHub repositories 
+and can make install by Git branches.
+
 # Usage
 
     $ cat sparrowfile
