@@ -36,7 +36,7 @@ and can make install by Git branches.
         
 # Limitation
 
-If you look more grained control on over CPAN modules install consider [cpan-*](https://github.com/melezhik/sparrowdo/blob/master/core-dsl.md#cpan-packages)
+If you look more precise control on CPAN modules installations consider [cpan-*](https://github.com/melezhik/sparrowdo/blob/master/core-dsl.md#cpan-packages)
 functions comes from Sparrowdo core-dsl.
 
 This is pretty straightforward install using system (root) installation.
