@@ -14,10 +14,20 @@
 
     $ cat sparrowfile
 
+    # install https://github.com/melezhik/outthentic
+    # master branch
     module_run 'Cpanm::GitHub', %(
-        project => "https://github.com/melezhik/outthentic", # GitHub project
-        branch  => "realtime-stdout" # Tag name; If not set master branch installed 
+        user    => "melezhik",        # github user, required
+        project => "outthentic",      # GitHub project, required
     );
+
+    # install "realtime-stdout"  branch
+    module_run 'Cpanm::GitHub', %(
+        user    => "melezhik",        # github user, required
+        project => "outthentic",      # GitHub project
+        branch  => "realtime-stdout"  # Branch name; If not set master branch installed
+    );
+    
         
 # Limitation
 

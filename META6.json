@@ -28,7 +28,7 @@
     
   },
    "provides" : {
-        "Sparrowdo::Cpanm::Github" : "lib/Sparrowdo/Cpanm/GitHub.pm6"
+        "Sparrowdo::Cpanm::GitHub" : "lib/Sparrowdo/Cpanm/GitHub.pm6"
   },
 
   "depends": [
