@@ -1,6 +1,6 @@
 # Sparrowdo::Cpanm::GitHub
 
-[![Build Status](https://travis-ci.org//sparrowdo-cpanm-github.svg?branch=master)](https://travis-ci.org//sparrowdo-cpanm-github)
+[![Build Status](https://travis-ci.org/melezhik/sparrowdo-cpanm-github.svg?branch=master)](https://travis-ci.org/melezhik/sparrowdo-cpanm-github)
 
 # Install
 
