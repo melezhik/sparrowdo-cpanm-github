@@ -1,7 +1,7 @@
 {
   "name": "Sparrowdo::Cpanm::GitHub",
 
-  "description" : " Installs CPAN modules fetched from remote GitHub repositories",
+  "description" : "Installs CPAN modules fetched from remote GitHub repositories",
 
   "source-url": "https://github.com/melezhik/sparrowdo-cpanm-github.git",
 
@@ -47,13 +47,14 @@
   "test-depends": [
     
   ],
-  "description": "",
+
   "production": false,
+
   "emulates": {
     
   },
 
-  "version": "0.0.1",
+  "version": "0.0.2",
 
   "meta6": "0",
 
