@@ -12,8 +12,7 @@
 
 # Descritpion
 
-This module is able to install CPAN modules taken from GitHub repositories 
-and can make install by Git branches.
+Installs CPAN modules taken from GitHub repositories and branches.
 
 # Usage
 
@@ -35,8 +34,8 @@ and can make install by Git branches.
 
 # Limitation
 
-If you look more precise control on CPAN modules installations consider [cpan-*](https://github.com/melezhik/sparrowdo/blob/master/core-dsl.md#cpan-packages)
-functions comes from Sparrowdo core-dsl.
+If need more precise control on CPAN modules installations consider [cpan-*](https://github.com/melezhik/Sparrow6/blob/master/documentation/dsl.md#cpan-packages)
+functions come from Sparrow DSL.
 
 This is pretty straightforward install using system (root) installation.
 

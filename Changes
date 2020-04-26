@@ -2,6 +2,10 @@ Revision history for Sparrowdo::RemoteFile
 
 {{$NEXT}}
 
+0.0.4  2020-04-26T16:42:01-05:00
+
+    - Documentation fixes
+
 0.0.3  2020-04-26T09:53:26-05:00
 
     - Migrate to Sparrow6
