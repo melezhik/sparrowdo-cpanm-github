@@ -32,12 +32,13 @@
     
   },
    "provides" : {
-        "Sparrowdo::Cpanm::GitHub" : "lib/Sparrowdo/Cpanm/GitHub.pm6"
+        "Sparrowdo::Cpanm::GitHub" : "lib/Sparrowdo/Cpanm/GitHub.pm6",
+        "Sparrow6::Cpanm::GitHub" : "lib/Sparrow6/Cpanm/GitHub.pm6"
   },
 
   "depends": [
     "Test::META",
-    "Sparrowdo",
+    "Sparrow6",
     "Sparrowdo::RemoteFile",
     "Sparrowdo::Archive"
   ],

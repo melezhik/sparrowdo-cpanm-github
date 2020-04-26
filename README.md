@@ -21,19 +21,18 @@ and can make install by Git branches.
 
     # install https://github.com/melezhik/outthentic
     # master branch
-    module_run 'Cpanm::GitHub', %(
+    module-run 'Cpanm::GitHub', %(
         user    => "melezhik",        # github user, required
         project => "outthentic",      # GitHub project, required
     );
 
     # install "realtime-stdout"  branch
-    module_run 'Cpanm::GitHub', %(
+    module-run 'Cpanm::GitHub', %(
         user    => "melezhik",        # github user, required
         project => "outthentic",      # GitHub project
         branch  => "realtime-stdout"  # Branch name; If not set master branch installed
     );
-    
-        
+
 # Limitation
 
 If you look more precise control on CPAN modules installations consider [cpan-*](https://github.com/melezhik/sparrowdo/blob/master/core-dsl.md#cpan-packages)
